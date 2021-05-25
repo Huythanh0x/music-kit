@@ -14,8 +14,12 @@ document.addEventListener('keydown', function(event) {
 });
 var audio = new Audio('sounds/f.mp3');
 function playSound(key) {
-	audio.pause();
-	audio.currentTime = 0;
+	list_key = ['f','a','s','d','j','k','l']
+	if(audio && list_key.includes(key)){
+		audio.pause();
+		audio.currentTime = 0;
+		audio.loop = true;	
+	}
 	switch (key) {
 		case 'f':
 			audio = new Audio('sounds/f.mp3');
