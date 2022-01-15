@@ -5,5 +5,6 @@ This web was built on JS with some simple lib to play music file. This project f
 It can play some ringtones: something just like this, faded, sing me to sleep, .... when you click the image or click coresponding key from keyboard
 <br>
 
-##Screenshot
+## Screenshot 
+
 <img src="https://raw.githubusercontent.com/Huythanh0x/music-kit/master/Screenshot%20from%202021-06-04%2023-19-11.png">
